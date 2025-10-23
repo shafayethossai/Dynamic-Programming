@@ -1,0 +1,1 @@
+{"name":"Local: knapsack01","url":"/home/shafayet/Compitetive Programming/DP/knapsack01.cpp","tests":[{"id":1746094922661,"input":"3 50\n10 20 30\n6 100 120","output":"220"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/shafayet/Compitetive Programming/DP/knapsack01.cpp","group":"local","local":true}
