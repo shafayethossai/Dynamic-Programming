@@ -21,11 +21,12 @@ ll min_cost (ll i, ll j) {
 }
 
 void path (ll i, ll j) {
-    cout << "(" << i << ", " << j << ") -> ";
-    
     if (i == n && j == m) {
+        cout << "(" << i << ", " << j << ")";
         return;
     }
+    cout << "(" << i << ", " << j << ") -> ";
+    
     ll right = min_cost(i, j+1);
     ll down = min_cost(i+1, j);
 
@@ -37,10 +38,8 @@ void path (ll i, ll j) {
     }
 }
 
-
 int main() {
     fast;
-    
     cin >> n >> m;
     
     for (int i=1; i<=n; i++) {

@@ -32,7 +32,9 @@ int main() {
     
     while(tc--) {
         memset(dp, -1, sizeof dp);
-        cout << min_step(10000) << endl;
+        int n;
+        cin >> n;
+        cout << min_step(n) << endl;
     }
     
 
